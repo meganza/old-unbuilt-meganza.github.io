@@ -1,0 +1,153 @@
+$icon-font-path: '../fonts/';
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+h1 {
+  font-size: 25px;
+  margin: 0px;
+  padding-bottom: 12px;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: regular;
+  margin: 5px;
+}
+
+h3 {
+  font-size: 15px;
+  margin: 5px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.lighter {
+  font-weight: 300;
+}
+
+.row {
+  margin: 0px;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.navigation {
+  background: #ccc;
+  border-radius: 0px;
+  padding: 13px;
+  margin: 0px;
+}
+
+.nav li a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.nav li:hover a {
+  border: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  background: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.section {
+  padding: 50px;
+}
+
+.odd {
+  background: #ccc;
+}
+
+.even {
+  background: #eee;
+}
+
+.line {
+  width: 70%;
+  height: 1px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #000;
+}
+
+.heading {
+  padding-bottom: 30px;
+}
+
+.description {
+  padding: 10px;
+}
+
+.space-thirty {
+  height: 30px;
+  width: 100%;
+  float: left;
+}
+
+.space-ten {
+  height: 10px;
+  width: 100%;
+  float: left;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.icon {
+  height: 150px;
+  width: 150px;
+}
+
+
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
