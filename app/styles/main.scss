@@ -16,8 +16,12 @@ body {
   font-style: italic;
 }
 
+.inline {
+  display: inline;
+}
+
 h6 {
-  font-size: 7vw;
+  font-size: 5vw;
 }
 
 h5, h5 a {
@@ -136,7 +140,7 @@ a:hover {
 }
 
 .line {
-  width: 70%;
+  width: 60%;
   height: 1px;
   margin-left: auto;
   margin-right: auto;
@@ -192,7 +196,21 @@ img {
 }
 
 .carousel-control.left, .carousel-control.right {
-    background-image: none
+  background-image: none
+}
+
+.carousel-control.left > span, .carousel-control.right > span {
+  color: #104557;
+  opacity: .8;
+}
+
+.carousel-indicators li {
+  border: none;
+  background-color: #03a2b7;
+}
+
+.carousel-indicators .active {
+  background-color: #028090;
 }
 
 .item > img {
@@ -228,20 +246,8 @@ img {
   background: #bdd3cc;
 }
 
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
+.social {
+  height: 25px;
+  width: 25px;
+  margin: 0 3px;
 }
