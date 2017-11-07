@@ -1,8 +1,6 @@
 $icon-font-path: '../fonts/';
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 // endbower
 
 body {
@@ -27,7 +25,7 @@ h5, h5 a {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 22px;
   margin: 0px;
   padding-bottom: 12px;
   color: #028090;
@@ -173,7 +171,26 @@ img {
 .work-img {
   height: 150px;
   width: 150px;
+  border-radius: 50%;
+  background: #adc8bc;
+  text-align: center;
+  cursor: pointer;
 }
+
+.work-title {
+  height: 150px;
+  width: 150px;
+  padding: 40% 0;
+}
+
+.two-liner {
+  padding:  35% 0;
+}
+
+#netsafeSlide {
+  display: none;
+}
+
 
 .banner {
   height: 90%;
