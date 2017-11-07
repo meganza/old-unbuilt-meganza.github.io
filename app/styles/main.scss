@@ -3,43 +3,16 @@ $icon-font-path: '../fonts/';
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-body {
-  font-family: 'Roboto', sans-serif;
-  color: #104557;
-}
-
-.playfair-display {
-  font-family: 'Playfair Display', serif;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.inline {
-  display: inline;
-}
-
-h6 {
-  font-size: 5vw;
-}
-
-h5, h5 a {
-  font-size: 10px;
-}
-
 h1 {
-  font-size: 22px;
+  font-size: 25px;
   margin: 0px;
   padding-bottom: 12px;
-  color: #028090;
 }
 
 h2 {
   font-size: 15px;
   font-weight: regular;
   margin: 5px;
-  color: #265B6D;
 }
 
 h3 {
@@ -47,25 +20,8 @@ h3 {
   margin: 5px;
 }
 
-h4 {
-  font-weight: 13px;
-  margin: 0px;
-  padding: 0px;
-}
-
-p, a {
-  font-size: 14px;
-}
-
-a {
-  color: #028090;
-  font-weight: lighter;
-}
-
-a:hover {
-  color: #015A65;
-  text-transform: none;
-  text-decoration: none;
+p {
+  font-size: 13px;
 }
 
 .bold {
@@ -93,7 +49,7 @@ a:hover {
 }
 
 .navigation {
-  background: #EFF4F5;
+  background: #ccc;
   border-radius: 0px;
   padding: 13px;
   margin: 0px;
@@ -132,19 +88,19 @@ a:hover {
 }
 
 .odd {
-  background: #d5e3de;
+  background: #ccc;
 }
 
 .even {
-  background: #f2f6f7;
+  background: #eee;
 }
 
 .line {
-  width: 60%;
+  width: 70%;
   height: 1px;
   margin-left: auto;
   margin-right: auto;
-  background: #114B5F;
+  background: #000;
 }
 
 .heading {
@@ -172,82 +128,26 @@ img {
   width: 200px;
 }
 
-.work-img {
+.icon {
   height: 150px;
   width: 150px;
-  border-radius: 50%;
-  background: #edf3f0;
-  text-align: center;
-  cursor: pointer;
 }
 
-.work-title {
-  height: 150px;
-  width: 150px;
-  padding: 40% 0;
-}
 
-.two-liner {
-  padding:  35% 0;
-}
-
-#berkanoSlide, #typoSlide, #dlsuSlide, #tgSlide, #infoSlide, #illuSlide  {
-  display: none;
-}
-
-.carousel-control.left, .carousel-control.right {
-  background-image: none
-}
-
-.carousel-control.left > span, .carousel-control.right > span {
-  color: #104557;
-  opacity: .8;
-}
-
-.carousel-indicators li {
-  border: none;
-  background-color: #03a2b7;
-}
-
-.carousel-indicators .active {
-  background-color: #028090;
-}
-
-.item > img {
-  width: auto;
-  height: 450px;
-  min-height: 450px;
-  max-height: 450px;
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.banner {
-  height: 90%;
-  width: 90%;
-}
-
-.objectives .line {
-  width: 90%;
-}
-
-.objectives {
-  color: #026F7C;
-}
-
-.slideshow {
-  padding-top: 30px;
-}
-
-.footer {
-  padding: 15px;
-  background: #bdd3cc;
-}
-
-.social {
-  height: 25px;
-  width: 25px;
-  margin: 0 3px;
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
 }
